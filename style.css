@@ -1,0 +1,101 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Header */
+header {
+  background-color: #0078d4;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+main {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  margin-top: 30px;
+}
+
+main section {
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main section h2 {
+  color: #0078d4;
+}
+
+main .education-item {
+  border-left: 5px solid #0078d4;
+  padding-left: 10px;
+  margin-bottom: 30px;
+}
+
+main .education-item h3,
+main .education-item p {
+  margin: 0;
+}
+
+main section ul {
+  list-style: none;
+  padding: 0;
+}
+
+main section ul li {
+  background: #f4f4f4;
+  margin: 5px 0;
+  padding: 10px;
+  border-left: 4px solid #0078d4;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background: #333;
+  color: white;
+  margin-top: 2rem;
+}
+
+footer p {
+  margin: 0;
+}
